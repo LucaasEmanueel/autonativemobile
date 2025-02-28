@@ -34,6 +34,6 @@ class ExampleInstrumentedTest {
         onView(withText("LOGAR")).perform(click())
         onView(withText("Logado!!")).check(matches(isDisplayed()))
         onView(withId(R.id.voltar)).perform(click())
-    //sprender sobre o framework Barista o mesmo é louvavel para fazer asserssoes e cliques no elemento
+
     }
 }
